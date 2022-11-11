@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"vremenskiprekid\startup_stm32f103xb.o"
+"vremenskiprekid\main.o"
+"vremenskiprekid\stm32f1xx_it.o"
+"vremenskiprekid\stm32f1xx_hal_msp.o"
+"vremenskiprekid\stm32f1xx_hal_gpio_ex.o"
+"vremenskiprekid\stm32f1xx_hal_tim.o"
+"vremenskiprekid\stm32f1xx_hal_tim_ex.o"
+"vremenskiprekid\stm32f1xx_hal.o"
+"vremenskiprekid\stm32f1xx_hal_rcc.o"
+"vremenskiprekid\stm32f1xx_hal_rcc_ex.o"
+"vremenskiprekid\stm32f1xx_hal_gpio.o"
+"vremenskiprekid\stm32f1xx_hal_dma.o"
+"vremenskiprekid\stm32f1xx_hal_cortex.o"
+"vremenskiprekid\stm32f1xx_hal_pwr.o"
+"vremenskiprekid\stm32f1xx_hal_flash.o"
+"vremenskiprekid\stm32f1xx_hal_flash_ex.o"
+"vremenskiprekid\stm32f1xx_hal_exti.o"
+"vremenskiprekid\system_stm32f1xx.o"
+--strict --scatter "VremenskiPrekid\VremenskiPrekid.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "VremenskiPrekid.map" -o VremenskiPrekid\VremenskiPrekid.axf
